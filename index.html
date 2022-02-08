@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+
+    <title>Apps</title>
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Truenas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MangagePage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- app-area -->
+    <div class="container-fluid row overflow-auto" id="app-area">
+        <div class="col-sm-4 col-xs-12 app-card">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="card-image">
+                            <img src="src/img/app.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="card-body">
+                            <h5 class="card-title">App Here</h5>
+                            <p class="card-text">www.yourserveraddresshere.com:port</p>
+                            <p class="card-text"><small class="text-muted">YYYY/MM/DD</small></p>
+                            <div class="row app-button-area justify-content-end">
+                                <button class="btn btn-default col-md-4 col-4">
+                                    <img src="src/img/setting.png" class="setting-icon" />
+                                </button>
+                                <button type="button" class="btn btn-outline-primary col-md-5 col-8">Web</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4 col-xs-12 app-card">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="card-image">
+                            <img src="src/img/app.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="card-body">
+                            <h5 class="card-title">App Here</h5>
+                            <p class="card-text">www.yourserveraddresshere.com:port</p>
+                            <p class="card-text"><small class="text-muted">YYYY/MM/DD</small></p>
+                            <div class="row app-button-area justify-content-end">
+                                <button class="btn btn-default col-md-4 col-4">
+                                    <img src="src/img/setting.png" class="setting-icon" />
+                                </button>
+                                <button type="button" class="btn btn-outline-primary col-md-5 col-8">Web</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 app-card">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="card-image">
+                            <img src="src/img/add.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="card-body">
+                            <h5 class="card-title">Add apps</h5>
+                            <!-- <p class="card-text">www.yourserveraddresshere.com:port</p> -->
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="IP" aria-label="IP">
+                                <span class="input-group-text">:</span>
+                                <input type="text" class="form-control" placeholder="Port" aria-label="Port">
+                              </div>
+                            <!-- <p class="card-text"><small class="text-muted">YYYY/MM/DD</small></p> -->
+                            <input type="text" class="form-control" placeholder="YYYY/MM/DD" aria-label="Info">
+                            <br/>
+                            <div class="row app-button-area justify-content-end">
+                                <button type="button" class="btn btn-outline-primary col-md-5 col-8">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="row" id="copyright" style="text-align:center;width:100vw">
+        <a href="https://www.flaticon.com/free-icons/app" title="app icons">icons created by Vitaly Gorbachev / Those
+            Icons / Freepik - Flaticon</a>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

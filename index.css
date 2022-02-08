@@ -1,0 +1,22 @@
+#app-area{
+    width:95%;
+    margin:auto;
+    margin-top: 30px;
+    height:80vh;
+}
+
+.app-card{
+}
+
+.card-image{
+    margin:20px;
+}
+
+.app-button-area{
+    margin-right: 10px;
+}
+
+.setting-icon{
+    height: 25px;
+    /* width: 25px; */
+}
